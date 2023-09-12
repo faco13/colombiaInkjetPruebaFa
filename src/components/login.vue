@@ -98,7 +98,7 @@
 
       }
       .logotext{
-        margin-top: 17%;
+        margin-top: 8%;
         margin-bottom: 1%;
         transform: scale(0.8,0.8);
       }

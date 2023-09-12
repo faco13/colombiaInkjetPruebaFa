@@ -1,22 +1,22 @@
 <template>
-  <login msg=" "/>
+  <container>
+  <router-link to="/login">Login</router-link>
+  <br>
+  <router-link to="/">FADADF</router-link>
+  
   <Router-view/>
+</container>
 </template>
 
 <script>
-import login from './components/login.vue'
 
 export default {
   name: "App",
   components: {
-    login,
   },
 };
 </script>
 
 <style>
-/* #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  text-align: center;
-} */
+
 </style>
